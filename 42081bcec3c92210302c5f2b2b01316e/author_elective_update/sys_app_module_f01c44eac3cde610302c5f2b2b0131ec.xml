@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Plumbing Company Product Management">38eb9f82c3cd2210302c5f2b2b013132</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Submit New Idea	</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1662488_pcpm_product_idea</name>
+        <order>11</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1662488_pcpm.designer,x_1662488_pcpm.admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 09:11:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f01c44eac3cde610302c5f2b2b0131ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit New Idea	</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_update_name>sys_app_module_f01c44eac3cde610302c5f2b2b0131ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 09:11:49</sys_updated_on>
+        <timeline_page/>
+        <title>Submit New Idea	</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</application>
+        <file_path/>
+        <instance_id>0261b790fff74a18c812f8e4fc4fd909</instance_id>
+        <instance_name>dev284375</instance_name>
+        <name>sys_app_module_f01c44eac3cde610302c5f2b2b0131ec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Plumbing Company Product Management">38eb9f82c3cd2210302c5f2b2b013132</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Submit New Idea	</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1662488_pcpm_product_idea</name><order>11</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1662488_pcpm.designer,x_1662488_pcpm.admin</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-24 09:11:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f01c44eac3cde610302c5f2b2b0131ec</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Submit New Idea	</sys_name><sys_overrides/><sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package><sys_policy/><sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope><sys_update_name>sys_app_module_f01c44eac3cde610302c5f2b2b0131ec</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-24 09:11:49</sys_updated_on><timeline_page/><title>Submit New Idea	</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1391325031</payload_hash>
+        <record_name>Submit New Idea	</record_name>
+        <reverted_from/>
+        <source>0e085f0ec38d2210302c5f2b2b0131a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 09:11:49</sys_created_on>
+        <sys_id>2a6c0ceac3cde610302c5f2b2b013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19667114de40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 09:11:49</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2e6c0cea9fcde6102692c5b22ebdae95</update_guid>
+        <update_guid_history>2e6c0cea9fcde6102692c5b22ebdae95:1391325031</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Submit New Idea&#9;">135c2c66c3c92a10302c5f2b2b0131ed</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:31:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>2a28576c07624cec90462371eb089e64</sys_id>
+        <sys_metadata>f01c44eac3cde610302c5f2b2b0131ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit New Idea	</sys_name>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_scope_delete display_value="">164d6d89b9b646389d4cf72179addc90</sys_scope_delete>
+        <sys_update_name>sys_app_module_f01c44eac3cde610302c5f2b2b0131ec</sys_update_name>
+        <sys_update_version display_value="sys_app_module_f01c44eac3cde610302c5f2b2b0131ec">2a6c0ceac3cde610302c5f2b2b013196</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:31:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

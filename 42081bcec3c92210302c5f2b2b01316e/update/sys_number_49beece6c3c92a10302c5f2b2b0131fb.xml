@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1662488_pcpm_product_idea">x_1662488_pcpm_product_idea</category>
+        <maximum_digits>4</maximum_digits>
+        <number>100</number>
+        <prefix>PRODUCT_IDEA</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:41:38</sys_created_on>
+        <sys_id>49beece6c3c92a10302c5f2b2b0131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PRODUCT_IDEA</sys_name>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_update_name>sys_number_49beece6c3c92a10302c5f2b2b0131fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:41:38</sys_updated_on>
+    </sys_number>
+</record_update>

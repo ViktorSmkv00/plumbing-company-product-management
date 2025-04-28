@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <semantic_tag/>
+        <size>4</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">6be1d13ec3892210302c5f2b2b013189</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 08:54:01</sys_created_on>
+        <sys_id>ebe1d132c3c92210302c5f2b2b01317d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_update_name>sp_column_ebe1d132c3c92210302c5f2b2b01317d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 08:54:01</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</application>
+        <file_path/>
+        <instance_id>0261b790fff74a18c812f8e4fc4fd909</instance_id>
+        <instance_name>dev284375</instance_name>
+        <name>sp_column_ebe1d132c3c92210302c5f2b2b01317d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><semantic_tag/><size>4</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">6be1d13ec3892210302c5f2b2b013189</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-25 08:54:01</sys_created_on><sys_id>ebe1d132c3c92210302c5f2b2b01317d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package><sys_policy/><sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope><sys_update_name>sp_column_ebe1d132c3c92210302c5f2b2b01317d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-25 08:54:01</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-147375202</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>0e085f0ec38d2210302c5f2b2b0131a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 08:54:01</sys_created_on>
+        <sys_id>67e1d132c3c92210302c5f2b2b013180</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1966c275d820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 08:54:01</sys_updated_on>
+        <type>Column</type>
+        <update_guid>6be1d1322ac9221006d0d5eace82747f</update_guid>
+        <update_guid_history>6be1d1322ac9221006d0d5eace82747f:-147375202</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">6580d763c3c52610302c5f2b2b01310e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-28 02:02:34</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>04b69549555040d085e1372a7566a900</sys_id>
+        <sys_metadata>ebe1d132c3c92210302c5f2b2b01317d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_scope_delete display_value="">164d6d89b9b646389d4cf72179addc90</sys_scope_delete>
+        <sys_update_name>sp_column_ebe1d132c3c92210302c5f2b2b01317d</sys_update_name>
+        <sys_update_version display_value="sp_column_ebe1d132c3c92210302c5f2b2b01317d">67e1d132c3c92210302c5f2b2b013180</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-28 02:02:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Ticket Type&#9;">0ca8e623c389e210302c5f2b2b013165</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-28 01:43:24</sys_created_on>
+        <sys_id>191c07e3c3852610302c5f2b2b013115</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Support</sys_name>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_update_name>question_choice_191c07e3c3852610302c5f2b2b013115</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-28 01:43:24</sys_updated_on>
+        <text>Support</text>
+        <value>Support</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=191c07e3c3852610302c5f2b2b013115"/>
+</record_update>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_1662488_pcpm_ticket">customer_typeINdomus,industrial^EQ<item display_value="domus,industrial" endquery="false" field="customer_type" goto="false" newquery="false" operator="IN" or="false" value="domus,industrial"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>UI Policy for Ticket Field Visibility</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 17:36:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f2b5b8dac34da210302c5f2b2b01319f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>UI Policy for Ticket Field Visibility</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_update_name>sys_ui_policy_f2b5b8dac34da210302c5f2b2b01319f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 17:50:23</sys_updated_on>
+        <table>x_1662488_pcpm_ticket</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</application>
+        <file_path/>
+        <instance_id>0261b790fff74a18c812f8e4fc4fd909</instance_id>
+        <instance_name>dev284375</instance_name>
+        <name>sys_ui_policy_f2b5b8dac34da210302c5f2b2b01319f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_1662488_pcpm_ticket"&gt;customer_typeINdomus,industrial^EQ&lt;item display_value="domus,industrial" endquery="false" field="customer_type" goto="false" newquery="false" operator="IN" or="false" value="domus,industrial"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;UI Policy for Ticket Field Visibility&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-04-23 17:36:41&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f2b5b8dac34da210302c5f2b2b01319f&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;UI Policy for Ticket Field Visibility&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm"&gt;42081bcec3c92210302c5f2b2b01316e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Plumbing Company Product Management"&gt;42081bcec3c92210302c5f2b2b01316e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_f2b5b8dac34da210302c5f2b2b01319f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-04-23 17:50:23&lt;/sys_updated_on&gt;&lt;table&gt;x_1662488_pcpm_ticket&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1860058671</payload_hash>
+        <record_name>UI Policy for Ticket Field Visibility</record_name>
+        <reverted_from/>
+        <source>0e085f0ec38d2210302c5f2b2b0131a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 17:50:23</sys_created_on>
+        <sys_id>b489f4dac3cda210302c5f2b2b0131fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19663c5b48f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 17:50:23</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>7c89f4daeecda2101464ed4428d513f9</update_guid>
+        <update_guid_history>7c89f4daeecda2101464ed4428d513f9:1860058671,97c8f4922f8da210c84229a3c5280486:2101813190,4066b492c28da210cd557affddbf1d5f:1992586562</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 17:57:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>06921bc02c174e94ab99b7e51233b081</sys_id>
+        <sys_metadata>f2b5b8dac34da210302c5f2b2b01319f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UI Policy for Ticket Field Visibility</sys_name>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_parent display_value="Ticket">38cb5f82c3cd2210302c5f2b2b013169</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_scope_delete display_value="">164d6d89b9b646389d4cf72179addc90</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_f2b5b8dac34da210302c5f2b2b01319f</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_f2b5b8dac34da210302c5f2b2b01319f">b489f4dac3cda210302c5f2b2b0131fa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 17:57:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

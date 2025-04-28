@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
+    <sc_catalog action="DELETE">
+        <active>true</active>
+        <description/>
+        <desktop_continue_shopping/>
+        <desktop_home_page/>
+        <desktop_image/>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager/>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 08:18:51</sys_created_on>
+        <sys_id>e7098d7ec3c52210302c5f2b2b013117</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Support Catalog</sys_name>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_update_name>sc_catalog_e7098d7ec3c52210302c5f2b2b013117</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 08:18:51</sys_updated_on>
+        <title>Customer Support Catalog</title>
+    </sc_catalog>
+    <sys_translated_text action="DELETE" query="documentkey=e7098d7ec3c52210302c5f2b2b013117"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</application>
+        <file_path/>
+        <instance_id>0261b790fff74a18c812f8e4fc4fd909</instance_id>
+        <instance_name>dev284375</instance_name>
+        <name>sc_catalog_e7098d7ec3c52210302c5f2b2b013117</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog"><sc_catalog action="INSERT_OR_UPDATE"><active>true</active><description/><desktop_continue_shopping/><desktop_home_page/><desktop_image/><editors/><enable_wish_list>false</enable_wish_list><manager/><sys_class_name>sc_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-25 08:18:51</sys_created_on><sys_id>e7098d7ec3c52210302c5f2b2b013117</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Customer Support Catalog</sys_name><sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package><sys_policy/><sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope><sys_update_name>sc_catalog_e7098d7ec3c52210302c5f2b2b013117</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-25 08:18:51</sys_updated_on><title>Customer Support Catalog</title></sc_catalog><sys_translated_text action="delete_multiple" query="documentkey=e7098d7ec3c52210302c5f2b2b013117"/></record_update>]]></payload>
+        <payload_hash>-463100079</payload_hash>
+        <record_name>Customer Support Catalog</record_name>
+        <reverted_from/>
+        <source>0e085f0ec38d2210302c5f2b2b0131a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 08:18:51</sys_created_on>
+        <sys_id>ace9c176c3092210302c5f2b2b013182</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1966c072da00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 08:18:51</sys_updated_on>
+        <type>Catalog</type>
+        <update_guid>20e9c176a80922108a3156d41d13f682</update_guid>
+        <update_guid_history>20e9c176a80922108a3156d41d13f682:-463100079</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Customer Support Catalog">045ec1fac3492210302c5f2b2b013150</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 08:38:13</sys_created_on>
+        <sys_db_object display_value="" name="sc_catalog">sc_catalog</sys_db_object>
+        <sys_id>711c873b3ef648c18489f83acd652889</sys_id>
+        <sys_metadata>e7098d7ec3c52210302c5f2b2b013117</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Support Catalog</sys_name>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_scope_delete display_value="">164d6d89b9b646389d4cf72179addc90</sys_scope_delete>
+        <sys_update_name>sc_catalog_e7098d7ec3c52210302c5f2b2b013117</sys_update_name>
+        <sys_update_version display_value="sc_catalog_e7098d7ec3c52210302c5f2b2b013117">ace9c176c3092210302c5f2b2b013182</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 08:38:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

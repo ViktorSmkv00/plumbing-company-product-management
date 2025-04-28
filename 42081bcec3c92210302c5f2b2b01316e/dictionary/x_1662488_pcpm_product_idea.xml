@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0f8c6c26c3c92a10302c5f2b2b0131d6" extends="task" label="Product Idea" max_length="40" name="x_1662488_pcpm_product_idea" type="collection">
+        <element label="Title" max_length="40" name="title" type="string"/>
+        <element label="Submitted By" max_length="32" name="submitted_by" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Related Ticket" max_length="32" name="related_ticket" reference="x_1662488_pcpm_ticket" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var gdt = new GlideDateTime();&#13;&#10;&#9;var date = gdt.getLocalDate();&#13;&#10;&#9;return date;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Submission Date" max_length="40" name="submission_date" type="glide_date_time" virtual="true"/>
+        <element label="Related Product" max_length="32" name="related_product" reference="x_1662488_pcpm_product" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="SKU" max_length="40" name="sku" type="string"/>
+    </element>
+</database>

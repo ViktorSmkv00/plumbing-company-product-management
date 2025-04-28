@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d169986ec3c12a10302c5f2b2b01318d" extends="sys_user" label="Customer" max_length="40" name="x_1662488_pcpm_customer" type="collection">
+        <element label="Company Name" max_length="40" name="company_name" type="string"/>
+        <element choice="1" label="Customer Type" max_length="40" name="customer_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Domus" value="Domus"/>
+                <element inactive_on_update="false" label="Industrial" value="Industrial"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1662488_pcpm.support" name="x_1662488_pcpm.support">d4aa5f4ec38d2210302c5f2b2b013122</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 10:55:50</sys_created_on>
+        <sys_id>18aa5f4ec38d2210302c5f2b2b013123</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d4aa5f4ec38d2210302c5f2b2b013122</sys_name>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_update_name>sys_embedded_help_role_18aa5f4ec38d2210302c5f2b2b013123</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 10:55:50</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

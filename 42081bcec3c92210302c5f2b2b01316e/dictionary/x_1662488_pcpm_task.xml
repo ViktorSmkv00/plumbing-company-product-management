@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="12bc159ec3c9e210302c5f2b2b01317e" extends="task" label="Task" max_length="40" name="x_1662488_pcpm_task" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Linked Ticket&#9;" max_length="32" name="linked_ticket" reference="x_1662488_pcpm_ticket" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Task Type" max_length="40" name="task_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Support" sequence="0" value="Support"/>
+                <element inactive_on_update="false" label="Product Development" sequence="3" value="Product Development"/>
+                <element inactive_on_update="false" label="Design" sequence="1" value="Design"/>
+                <element inactive_on_update="false" label="Feedback" sequence="2" value="Feedback"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Related Product" max_length="50" name="related_product" reference="x_1662488_pcpm_product" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Reason Created" max_length="40" name="reason_created" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Other" sequence="500" value="other"/>
+                <element inactive_on_update="false" label="Idea Approval" sequence="300" value="idea_approval"/>
+                <element inactive_on_update="false" label="Customer Feedback" sequence="200" value="customer_feedback"/>
+                <element inactive_on_update="false" label="Test Feedback" sequence="400" value="test_feedback"/>
+                <element inactive_on_update="false" label="Customer Request" sequence="100" value="customer_request"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Originated From" max_length="40" name="originated_from" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Customer" value="Customer"/>
+                <element inactive_on_update="false" label="Tester" value="Tester"/>
+                <element inactive_on_update="false" label="Internal" value="Internal"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Triggering Group" max_length="32" name="triggering_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Test Type" max_length="40" name="test_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Internal" sequence="0" value="Internal"/>
+                <element inactive_on_update="false" label="External" sequence="1" value="External"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">c84cbf2af832021008dd9cfea425ac5e</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 11:00:47</sys_created_on>
+        <sys_id>74cb5f82c3cd2210302c5f2b2b0131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 11:00:47</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

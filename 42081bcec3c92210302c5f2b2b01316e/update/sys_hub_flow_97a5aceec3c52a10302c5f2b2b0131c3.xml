@@ -1,0 +1,1835 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=300812000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>approve_product_idea</internal_name>
+        <label_cache>[{"name":"{{static.8f49b8e6c3cd2a10302c5f2b2b013126}}","label":"Innovation Test Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"208f4a33-9fd6-45fd-8de6-5069e11856b1":["approval_conditions"]}},{"name":"208f4a33-9fd6-45fd-8de6-5069e11856b1.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"72d059d9-df4d-48fc-a1e9-1a6683500146":["condition"],"6b0a1a6f-bef8-4cfb-811e-5cef7e1ae77a":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.d112e46ac3852a10302c5f2b2b0131de}}","label":"Innovation Test Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"208f4a33-9fd6-45fd-8de6-5069e11856b1":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Product idea Record","reference":"x_1662488_pcpm_product_idea","reference_display":"Product Idea","type":"reference","base_type":"reference","usedInstances":{"208f4a33-9fd6-45fd-8de6-5069e11856b1":["record"],"68c4e947-4cc5-4bab-97bc-54319ca4ee7e":["record"],"27ab64ba-c0a6-43c3-bb61-63f885f536b4":["record"]},"attributes":{}}]</label_cache>
+        <master_snapshot>020960a2c3892a10302c5f2b2b0131dd</master_snapshot>
+        <name>Flow 1 Approve Product Idea</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>e209e0a2c3892a10302c5f2b2b01315f</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:02:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>97a5aceec3c52a10302c5f2b2b0131c3</sys_id>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name>Flow 1 Approve Product Idea</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_update_name>sys_hub_flow_97a5aceec3c52a10302c5f2b2b0131c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:46</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=97a5aceec3c52a10302c5f2b2b0131c3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=97a5aceec3c52a10302c5f2b2b0131c3"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1662488_pcpm_product_idea">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e209e0a2c3892a10302c5f2b2b01315f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:54</sys_updated_on>
+        <table>x_1662488_pcpm_product_idea</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>97a5aceec3c52a10302c5f2b2b0131c3</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-27 22:35:46</sys_created_on>
+        <sys_id>58312eabc385e210302c5f2b2b0131dc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:46</sys_updated_on>
+        <trigger display_value="">e209e0a2c3892a10302c5f2b2b01315f</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=97a5aceec3c52a10302c5f2b2b0131c3^sys_idNOT IN58312eabc385e210302c5f2b2b0131dc"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=97a5aceec3c52a10302c5f2b2b0131c3^sys_idNOT IN87f8a862c3892a10302c5f2b2b01313b"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow 1 Approve Product Idea">97a5aceec3c52a10302c5f2b2b0131c3</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:39</sys_created_on>
+        <sys_id>87f8a862c3892a10302c5f2b2b01313b</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:46</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=87f8a862c3892a10302c5f2b2b01313b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>87f8a862c3892a10302c5f2b2b01313b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:39</sys_created_on>
+        <sys_id>53f8a862c3892a10302c5f2b2b01313d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:39</sys_updated_on>
+        <value>x_1662488_pcpm_product_idea</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>87f8a862c3892a10302c5f2b2b01313b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:39</sys_created_on>
+        <sys_id>d7f8a862c3892a10302c5f2b2b01313c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:39</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=97a5aceec3c52a10302c5f2b2b0131c3"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=97a5aceec3c52a10302c5f2b2b0131c3^sys_idNOT INd7a5aceec3c52a10302c5f2b2b0131c6"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>97a5aceec3c52a10302c5f2b2b0131c3</id>
+        <name>Approve Product Idea</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:02:11</sys_created_on>
+        <sys_id>d7a5aceec3c52a10302c5f2b2b0131c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:02:11</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=d7a5aceec3c52a10302c5f2b2b0131c6"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=97a5aceec3c52a10302c5f2b2b0131c3^sys_idNOT IN0bf8a862c3892a10302c5f2b2b013115,8bf8a862c3892a10302c5f2b2b01311b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Flow 1 Approve Product Idea">97a5aceec3c52a10302c5f2b2b0131c3</model>
+        <model_id>97a5aceec3c52a10302c5f2b2b0131c3</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_97a5aceec3c52a10302c5f2b2b0131c3</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:39</sys_created_on>
+        <sys_id>0bf8a862c3892a10302c5f2b2b013115</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0bf8a862c3892a10302c5f2b2b013115"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Flow 1 Approve Product Idea">97a5aceec3c52a10302c5f2b2b0131c3</model>
+        <model_id>97a5aceec3c52a10302c5f2b2b0131c3</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_97a5aceec3c52a10302c5f2b2b0131c3</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:39</sys_created_on>
+        <sys_id>8bf8a862c3892a10302c5f2b2b01311b</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8bf8a862c3892a10302c5f2b2b01311b"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=97a5aceec3c52a10302c5f2b2b0131c3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=97a5aceec3c52a10302c5f2b2b0131c3"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=97a5aceec3c52a10302c5f2b2b0131c3^sys_idNOT IN1bf8a862c3892a10302c5f2b2b013199,1ff8a862c3892a10302c5f2b2b013191,97f8a862c3892a10302c5f2b2b013144,97f8a862c3892a10302c5f2b2b0131f9,d3f8a862c3892a10302c5f2b2b0131d4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow 1 Approve Product Idea">97a5aceec3c52a10302c5f2b2b0131c3</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>72d059d9-df4d-48fc-a1e9-1a6683500146</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>1bf8a862c3892a10302c5f2b2b013199</sys_id>
+        <sys_mod_count>78</sys_mod_count>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:46</sys_updated_on>
+        <ui_id>60d9f746-fd17-442f-b66e-7144d72eceaf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1bf8a862c3892a10302c5f2b2b013199"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1bf8a862c3892a10302c5f2b2b013199</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>13f8a862c3892a10302c5f2b2b01319c</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:38</sys_updated_on>
+        <value>short_description=fd-scripted^description=fd-scripted^reason_created=idea_approval^related_product=fd-scripted</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1bf8a862c3892a10302c5f2b2b013199</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>5ff8a862c3892a10302c5f2b2b01319b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:40</sys_updated_on>
+        <value>x_1662488_pcpm_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=1bf8a862c3892a10302c5f2b2b013199"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1bf8a862c3892a10302c5f2b2b013199^sys_idNOT IN5bf8a862c3892a10302c5f2b2b01319a"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>field_values</input_name>
+        <instance>1bf8a862c3892a10302c5f2b2b013199</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"short_description":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar text \u003d \"New Product Idea: \";\nvar shortDesc \u003d fd_data.trigger.current.title;\nreturn text + shortDesc;","savedValue":"New Product Idea: ${current.title}"},"related_product":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar relProduct \u003d fd_data.trigger.current.related_product;\nreturn relProduct;","savedValue":""},"description":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar text \u003d \"Created from approved idea: \";\nvar desc \u003d fd_data.trigger.current.description;\nreturn text + desc;\n\n","savedValue":"Created from approved idea: ${current.description}"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>5bf8a862c3892a10302c5f2b2b01319a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 16:16:04</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1bf8a862c3892a10302c5f2b2b013199"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow 1 Approve Product Idea">97a5aceec3c52a10302c5f2b2b0131c3</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>72d059d9-df4d-48fc-a1e9-1a6683500146</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>1ff8a862c3892a10302c5f2b2b013191</sys_id>
+        <sys_mod_count>78</sys_mod_count>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:46</sys_updated_on>
+        <ui_id>68c4e947-4cc5-4bab-97bc-54319ca4ee7e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1ff8a862c3892a10302c5f2b2b013191"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1ff8a862c3892a10302c5f2b2b013191</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>9ff8a862c3892a10302c5f2b2b013193</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:40</sys_updated_on>
+        <value>x_1662488_pcpm_product_idea</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1ff8a862c3892a10302c5f2b2b013191</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>dbf8a862c3892a10302c5f2b2b013193</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 15:58:25</sys_updated_on>
+        <value>approval=approved</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1ff8a862c3892a10302c5f2b2b013191"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>1ff8a862c3892a10302c5f2b2b013191</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>5bf8a862c3892a10302c5f2b2b013193</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>1ff8a862c3892a10302c5f2b2b013191</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>d3f8a862c3892a10302c5f2b2b013193</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>1ff8a862c3892a10302c5f2b2b013191</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>97f8a862c3892a10302c5f2b2b013193</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1ff8a862c3892a10302c5f2b2b013191"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1ff8a862c3892a10302c5f2b2b013191"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow 1 Approve Product Idea">97a5aceec3c52a10302c5f2b2b0131c3</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>97f8a862c3892a10302c5f2b2b013144</sys_id>
+        <sys_mod_count>78</sys_mod_count>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:46</sys_updated_on>
+        <ui_id>208f4a33-9fd6-45fd-8de6-5069e11856b1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=97f8a862c3892a10302c5f2b2b013144"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>97f8a862c3892a10302c5f2b2b013144</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 12:41:20</sys_created_on>
+        <sys_id>235c30a2c3416a10302c5f2b2b0131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 12:41:20</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>97f8a862c3892a10302c5f2b2b013144</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>97f8a862c3892a10302c5f2b2b01316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:40</sys_updated_on>
+        <value>x_1662488_pcpm_product_idea</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>97f8a862c3892a10302c5f2b2b013144</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>d3f8a862c3892a10302c5f2b2b01316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:40</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=97f8a862c3892a10302c5f2b2b013144"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>97f8a862c3892a10302c5f2b2b013144</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>9ff8a862c3892a10302c5f2b2b01316c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 17:58:51</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>Approves5#G[{{static.8f49b8e6c3cd2a10302c5f2b2b013126}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>97f8a862c3892a10302c5f2b2b013144</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 12:41:20</sys_created_on>
+        <sys_id>ab5c30a2c3416a10302c5f2b2b0131c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 12:41:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>97f8a862c3892a10302c5f2b2b013144</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>dbf8a862c3892a10302c5f2b2b01316c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>97f8a862c3892a10302c5f2b2b013144</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>d3f8a862c3892a10302c5f2b2b01316c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>97f8a862c3892a10302c5f2b2b013144</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>53f8a862c3892a10302c5f2b2b01316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=97f8a862c3892a10302c5f2b2b013144"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=97f8a862c3892a10302c5f2b2b013144"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow 1 Approve Product Idea">97a5aceec3c52a10302c5f2b2b0131c3</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>6b0a1a6f-bef8-4cfb-811e-5cef7e1ae77a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>97f8a862c3892a10302c5f2b2b0131f9</sys_id>
+        <sys_mod_count>78</sys_mod_count>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:46</sys_updated_on>
+        <ui_id>27ab64ba-c0a6-43c3-bb61-63f885f536b4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=97f8a862c3892a10302c5f2b2b0131f9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>97f8a862c3892a10302c5f2b2b0131f9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>13f8a862c3892a10302c5f2b2b0131fb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:38</sys_updated_on>
+        <value>state=7</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>97f8a862c3892a10302c5f2b2b0131f9</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>d3f8a862c3892a10302c5f2b2b0131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:40</sys_updated_on>
+        <value>x_1662488_pcpm_product_idea</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=97f8a862c3892a10302c5f2b2b0131f9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>97f8a862c3892a10302c5f2b2b0131f9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>5ff8a862c3892a10302c5f2b2b0131fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>97f8a862c3892a10302c5f2b2b0131f9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>d7f8a862c3892a10302c5f2b2b0131fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>97f8a862c3892a10302c5f2b2b0131f9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>9bf8a862c3892a10302c5f2b2b0131fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=97f8a862c3892a10302c5f2b2b0131f9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=97f8a862c3892a10302c5f2b2b0131f9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow 1 Approve Product Idea">97a5aceec3c52a10302c5f2b2b0131c3</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>72d059d9-df4d-48fc-a1e9-1a6683500146</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>d3f8a862c3892a10302c5f2b2b0131d4</sys_id>
+        <sys_mod_count>78</sys_mod_count>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:46</sys_updated_on>
+        <ui_id>e5ee40e0-85c4-4a2c-9d62-60aa644612bf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d3f8a862c3892a10302c5f2b2b0131d4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d3f8a862c3892a10302c5f2b2b0131d4</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>1bf8a862c3892a10302c5f2b2b0131d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 16:18:00</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d3f8a862c3892a10302c5f2b2b0131d4</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>57f8a862c3892a10302c5f2b2b0131d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:40</sys_updated_on>
+        <value>test.admin@email.com</value>
+        <variable display_value="To">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d3f8a862c3892a10302c5f2b2b0131d4</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>dbf8a862c3892a10302c5f2b2b0131d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:40</sys_updated_on>
+        <value>New Product Idea Approved</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb^id=d3f8a862c3892a10302c5f2b2b0131d4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d3f8a862c3892a10302c5f2b2b0131d4^sys_idNOT IN19fd6daac381aa10302c5f2b2b0131bf"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>ah_body</input_name>
+        <instance>d3f8a862c3892a10302c5f2b2b0131d4</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_body":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\n\n\nvar title \u003d fd_data.trigger.current.title;\nreturn \"Idea \" + title + \" has been approved and a task has been created.\";\n"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 16:18:00</sys_created_on>
+        <sys_id>19fd6daac381aa10302c5f2b2b0131bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 16:18:00</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d3f8a862c3892a10302c5f2b2b0131d4"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=97a5aceec3c52a10302c5f2b2b0131c3"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=97a5aceec3c52a10302c5f2b2b0131c3^sys_idNOT IN13f8a862c3892a10302c5f2b2b013170,d7f8a862c3892a10302c5f2b2b0131d9"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1ff8a862c3892a10302c5f2b2b01316d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Flow 1 Approve Product Idea">97a5aceec3c52a10302c5f2b2b0131c3</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>13f8a862c3892a10302c5f2b2b013170</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:46</sys_updated_on>
+        <ui_id>72d059d9-df4d-48fc-a1e9-1a6683500146</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=13f8a862c3892a10302c5f2b2b013170"/>
+    <sys_element_mapping action="delete_multiple" query="id=13f8a862c3892a10302c5f2b2b013170"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>13f8a862c3892a10302c5f2b2b013170</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>1ff8a862c3892a10302c5f2b2b013173</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:40</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{208f4a33-9fd6-45fd-8de6-5069e11856b1.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=13f8a862c3892a10302c5f2b2b013170"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=13f8a862c3892a10302c5f2b2b013170"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">53f8a862c3892a10302c5f2b2b0131d8</block>
+        <comment/>
+        <connected_to>72d059d9-df4d-48fc-a1e9-1a6683500146</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Flow 1 Approve Product Idea">97a5aceec3c52a10302c5f2b2b0131c3</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>d7f8a862c3892a10302c5f2b2b0131d9</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:46</sys_updated_on>
+        <ui_id>6b0a1a6f-bef8-4cfb-811e-5cef7e1ae77a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d7f8a862c3892a10302c5f2b2b0131d9"/>
+    <sys_element_mapping action="delete_multiple" query="id=d7f8a862c3892a10302c5f2b2b0131d9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>d7f8a862c3892a10302c5f2b2b0131d9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:40</sys_created_on>
+        <sys_id>d3f8a862c3892a10302c5f2b2b0131f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:40</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{208f4a33-9fd6-45fd-8de6-5069e11856b1.approval_state}}=rejected</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d7f8a862c3892a10302c5f2b2b0131d9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d7f8a862c3892a10302c5f2b2b0131d9"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=97a5aceec3c52a10302c5f2b2b0131c3"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=97a5aceec3c52a10302c5f2b2b0131c3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_97a5aceec3c52a10302c5f2b2b0131c3^sys_idNOT IN47f8a862c3892a10302c5f2b2b01311e,c3f8a862c3892a10302c5f2b2b01311a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_97a5aceec3c52a10302c5f2b2b0131c3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:39</sys_created_on>
+        <sys_id>47f8a862c3892a10302c5f2b2b01311e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:39</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_97a5aceec3c52a10302c5f2b2b0131c3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:39</sys_created_on>
+        <sys_id>c3f8a862c3892a10302c5f2b2b01311a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:39</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_97a5aceec3c52a10302c5f2b2b0131c3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_97a5aceec3c52a10302c5f2b2b0131c3"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_97a5aceec3c52a10302c5f2b2b0131c3"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>approve_product_idea</internal_name>
+        <label_cache>[{"name":"{{static.8f49b8e6c3cd2a10302c5f2b2b013126}}","label":"Innovation Test Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"208f4a33-9fd6-45fd-8de6-5069e11856b1":["approval_conditions"]}},{"name":"208f4a33-9fd6-45fd-8de6-5069e11856b1.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"72d059d9-df4d-48fc-a1e9-1a6683500146":["condition"],"6b0a1a6f-bef8-4cfb-811e-5cef7e1ae77a":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.d112e46ac3852a10302c5f2b2b0131de}}","label":"Innovation Test Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"208f4a33-9fd6-45fd-8de6-5069e11856b1":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Product idea Record","reference":"x_1662488_pcpm_product_idea","reference_display":"Product Idea","type":"reference","base_type":"reference","usedInstances":{"208f4a33-9fd6-45fd-8de6-5069e11856b1":["record"],"68c4e947-4cc5-4bab-97bc-54319ca4ee7e":["record"],"27ab64ba-c0a6-43c3-bb61-63f885f536b4":["record"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Flow 1 Approve Product Idea</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Flow 1 Approve Product Idea">97a5aceec3c52a10302c5f2b2b0131c3</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>020960a2c3892a10302c5f2b2b0131dd</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:45</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=020960a2c3892a10302c5f2b2b0131dd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=020960a2c3892a10302c5f2b2b0131dd"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=020960a2c3892a10302c5f2b2b0131dd^sys_idNOT INd609a0a2c3892a10302c5f2b2b0131d2"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow 1 Approve Product Idea">020960a2c3892a10302c5f2b2b0131dd</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:53</sys_created_on>
+        <sys_id>d609a0a2c3892a10302c5f2b2b0131d2</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:46</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d609a0a2c3892a10302c5f2b2b0131d2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d609a0a2c3892a10302c5f2b2b0131d2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:53</sys_created_on>
+        <sys_id>5e09a0a2c3892a10302c5f2b2b0131ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:53</sys_updated_on>
+        <value>x_1662488_pcpm_product_idea</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d609a0a2c3892a10302c5f2b2b0131d2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:53</sys_created_on>
+        <sys_id>9a09a0a2c3892a10302c5f2b2b0131ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:53</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=020960a2c3892a10302c5f2b2b0131dd"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=020960a2c3892a10302c5f2b2b0131dd^sys_idNOT INca0960a2c3892a10302c5f2b2b0131de"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>020960a2c3892a10302c5f2b2b0131dd</id>
+        <name>Approve Product Idea</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:51</sys_created_on>
+        <sys_id>ca0960a2c3892a10302c5f2b2b0131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:51</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ca0960a2c3892a10302c5f2b2b0131de"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=020960a2c3892a10302c5f2b2b0131dd^sys_idNOT IN020960a2c3892a10302c5f2b2b0131e0,5a09a0a2c3892a10302c5f2b2b013115"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Flow 1 Approve Product Idea">020960a2c3892a10302c5f2b2b0131dd</model>
+        <model_id>020960a2c3892a10302c5f2b2b0131dd</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_020960a2c3892a10302c5f2b2b0131dd</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:51</sys_created_on>
+        <sys_id>020960a2c3892a10302c5f2b2b0131e0</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=020960a2c3892a10302c5f2b2b0131e0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Flow 1 Approve Product Idea">020960a2c3892a10302c5f2b2b0131dd</model>
+        <model_id>020960a2c3892a10302c5f2b2b0131dd</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_020960a2c3892a10302c5f2b2b0131dd</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>5a09a0a2c3892a10302c5f2b2b013115</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5a09a0a2c3892a10302c5f2b2b013115"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=020960a2c3892a10302c5f2b2b0131dd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=020960a2c3892a10302c5f2b2b0131dd"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=020960a2c3892a10302c5f2b2b0131dd^sys_idNOT IN1a09a0a2c3892a10302c5f2b2b01319a,5a09a0a2c3892a10302c5f2b2b0131c9,5e09a0a2c3892a10302c5f2b2b013178,9609a0a2c3892a10302c5f2b2b013170,d609a0a2c3892a10302c5f2b2b0131d0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow 1 Approve Product Idea">020960a2c3892a10302c5f2b2b0131dd</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>72d059d9-df4d-48fc-a1e9-1a6683500146</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>1a09a0a2c3892a10302c5f2b2b01319a</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:45</sys_updated_on>
+        <ui_id>60d9f746-fd17-442f-b66e-7144d72eceaf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1a09a0a2c3892a10302c5f2b2b01319a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1a09a0a2c3892a10302c5f2b2b01319a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>1609a0a2c3892a10302c5f2b2b01319c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:44</sys_updated_on>
+        <value>short_description=fd-scripted^description=fd-scripted^reason_created=idea_approval^related_product=fd-scripted</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1a09a0a2c3892a10302c5f2b2b01319a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>5209a0a2c3892a10302c5f2b2b01319c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:52</sys_updated_on>
+        <value>x_1662488_pcpm_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=1a09a0a2c3892a10302c5f2b2b01319a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1a09a0a2c3892a10302c5f2b2b01319a^sys_idNOT INd609a0a2c3892a10302c5f2b2b01319b"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>field_values</input_name>
+        <instance>1a09a0a2c3892a10302c5f2b2b01319a</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"short_description":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar text \u003d \"New Product Idea: \";\nvar shortDesc \u003d fd_data.trigger.current.title;\nreturn text + shortDesc;","savedValue":"New Product Idea: ${current.title}"},"related_product":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar relProduct \u003d fd_data.trigger.current.related_product;\nreturn relProduct;","savedValue":""},"description":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar text \u003d \"Created from approved idea: \";\nvar desc \u003d fd_data.trigger.current.description;\nreturn text + desc;\n\n","savedValue":"Created from approved idea: ${current.description}"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>d609a0a2c3892a10302c5f2b2b01319b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 16:18:20</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1a09a0a2c3892a10302c5f2b2b01319a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow 1 Approve Product Idea">020960a2c3892a10302c5f2b2b0131dd</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>72d059d9-df4d-48fc-a1e9-1a6683500146</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>5a09a0a2c3892a10302c5f2b2b0131c9</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:45</sys_updated_on>
+        <ui_id>e5ee40e0-85c4-4a2c-9d62-60aa644612bf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5a09a0a2c3892a10302c5f2b2b0131c9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5a09a0a2c3892a10302c5f2b2b0131c9</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>1e09a0a2c3892a10302c5f2b2b0131cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:52</sys_updated_on>
+        <value>test.admin@email.com</value>
+        <variable display_value="To">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5a09a0a2c3892a10302c5f2b2b0131c9</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>9209a0a2c3892a10302c5f2b2b0131cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:52</sys_updated_on>
+        <value>New Product Idea Approved</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5a09a0a2c3892a10302c5f2b2b0131c9</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>de09a0a2c3892a10302c5f2b2b0131cb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 16:18:20</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb^id=5a09a0a2c3892a10302c5f2b2b0131c9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5a09a0a2c3892a10302c5f2b2b0131c9^sys_idNOT IN160ea9eac381aa10302c5f2b2b0131ab"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>ah_body</input_name>
+        <instance>5a09a0a2c3892a10302c5f2b2b0131c9</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_body":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\n\n\nvar title \u003d fd_data.trigger.current.title;\nreturn \"Idea \" + title + \" has been approved and a task has been created.\";\n"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 16:18:20</sys_created_on>
+        <sys_id>160ea9eac381aa10302c5f2b2b0131ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 16:18:20</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5a09a0a2c3892a10302c5f2b2b0131c9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow 1 Approve Product Idea">020960a2c3892a10302c5f2b2b0131dd</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>72d059d9-df4d-48fc-a1e9-1a6683500146</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>5e09a0a2c3892a10302c5f2b2b013178</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:45</sys_updated_on>
+        <ui_id>68c4e947-4cc5-4bab-97bc-54319ca4ee7e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5e09a0a2c3892a10302c5f2b2b013178"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5e09a0a2c3892a10302c5f2b2b013178</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>1a09a0a2c3892a10302c5f2b2b01317a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 16:03:40</sys_updated_on>
+        <value>approval=approved</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5e09a0a2c3892a10302c5f2b2b013178</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>da09a0a2c3892a10302c5f2b2b01317a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:52</sys_updated_on>
+        <value>x_1662488_pcpm_product_idea</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5e09a0a2c3892a10302c5f2b2b013178"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5e09a0a2c3892a10302c5f2b2b013178</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>9609a0a2c3892a10302c5f2b2b01317a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5e09a0a2c3892a10302c5f2b2b013178</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>de09a0a2c3892a10302c5f2b2b013179</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>5e09a0a2c3892a10302c5f2b2b013178</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>9209a0a2c3892a10302c5f2b2b01317a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5e09a0a2c3892a10302c5f2b2b013178"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5e09a0a2c3892a10302c5f2b2b013178"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow 1 Approve Product Idea">020960a2c3892a10302c5f2b2b0131dd</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>9609a0a2c3892a10302c5f2b2b013170</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:45</sys_updated_on>
+        <ui_id>208f4a33-9fd6-45fd-8de6-5069e11856b1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9609a0a2c3892a10302c5f2b2b013170"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9609a0a2c3892a10302c5f2b2b013170</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>1a09a0a2c3892a10302c5f2b2b013172</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:52</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9609a0a2c3892a10302c5f2b2b013170</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 12:45:05</sys_created_on>
+        <sys_id>563dbcaac3416a10302c5f2b2b013141</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 12:45:05</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9609a0a2c3892a10302c5f2b2b013170</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>da09a0a2c3892a10302c5f2b2b013172</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:52</sys_updated_on>
+        <value>x_1662488_pcpm_product_idea</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9609a0a2c3892a10302c5f2b2b013170"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>9609a0a2c3892a10302c5f2b2b013170</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>d209a0a2c3892a10302c5f2b2b013172</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>Approves5#G[{{static.8f49b8e6c3cd2a10302c5f2b2b013126}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>9609a0a2c3892a10302c5f2b2b013170</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 12:45:05</sys_created_on>
+        <sys_id>963dbcaac3416a10302c5f2b2b013140</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 12:45:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>9609a0a2c3892a10302c5f2b2b013170</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>1209a0a2c3892a10302c5f2b2b013172</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>9609a0a2c3892a10302c5f2b2b013170</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>5e09a0a2c3892a10302c5f2b2b013171</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>9609a0a2c3892a10302c5f2b2b013170</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>9609a0a2c3892a10302c5f2b2b013172</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9609a0a2c3892a10302c5f2b2b013170"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9609a0a2c3892a10302c5f2b2b013170"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow 1 Approve Product Idea">020960a2c3892a10302c5f2b2b0131dd</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>6b0a1a6f-bef8-4cfb-811e-5cef7e1ae77a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>d609a0a2c3892a10302c5f2b2b0131d0</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:45</sys_updated_on>
+        <ui_id>27ab64ba-c0a6-43c3-bb61-63f885f536b4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d609a0a2c3892a10302c5f2b2b0131d0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d609a0a2c3892a10302c5f2b2b0131d0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>1209a0a2c3892a10302c5f2b2b0131d2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:44</sys_updated_on>
+        <value>state=7</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d609a0a2c3892a10302c5f2b2b0131d0</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>d209a0a2c3892a10302c5f2b2b0131d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:52</sys_updated_on>
+        <value>x_1662488_pcpm_product_idea</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d609a0a2c3892a10302c5f2b2b0131d0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d609a0a2c3892a10302c5f2b2b0131d0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>9e09a0a2c3892a10302c5f2b2b0131d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d609a0a2c3892a10302c5f2b2b0131d0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>1a09a0a2c3892a10302c5f2b2b0131d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d609a0a2c3892a10302c5f2b2b0131d0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>da09a0a2c3892a10302c5f2b2b0131d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d609a0a2c3892a10302c5f2b2b0131d0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d609a0a2c3892a10302c5f2b2b0131d0"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=020960a2c3892a10302c5f2b2b0131dd"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=020960a2c3892a10302c5f2b2b0131dd^sys_idNOT IN1a09a0a2c3892a10302c5f2b2b013159,da09a0a2c3892a10302c5f2b2b01313b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">53f8a862c3892a10302c5f2b2b0131d8</block>
+        <comment/>
+        <connected_to>72d059d9-df4d-48fc-a1e9-1a6683500146</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Flow 1 Approve Product Idea">020960a2c3892a10302c5f2b2b0131dd</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>1a09a0a2c3892a10302c5f2b2b013159</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:45</sys_updated_on>
+        <ui_id>6b0a1a6f-bef8-4cfb-811e-5cef7e1ae77a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=1a09a0a2c3892a10302c5f2b2b013159"/>
+    <sys_element_mapping action="delete_multiple" query="id=1a09a0a2c3892a10302c5f2b2b013159"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>1a09a0a2c3892a10302c5f2b2b013159</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>5609a0a2c3892a10302c5f2b2b01315c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:52</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{208f4a33-9fd6-45fd-8de6-5069e11856b1.approval_state}}=rejected</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1a09a0a2c3892a10302c5f2b2b013159"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1a09a0a2c3892a10302c5f2b2b013159"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1ff8a862c3892a10302c5f2b2b01316d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Flow 1 Approve Product Idea">020960a2c3892a10302c5f2b2b0131dd</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>da09a0a2c3892a10302c5f2b2b01313b</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:45</sys_updated_on>
+        <ui_id>72d059d9-df4d-48fc-a1e9-1a6683500146</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=da09a0a2c3892a10302c5f2b2b01313b"/>
+    <sys_element_mapping action="delete_multiple" query="id=da09a0a2c3892a10302c5f2b2b01313b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>da09a0a2c3892a10302c5f2b2b01313b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>5e09a0a2c3892a10302c5f2b2b013157</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:52</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{208f4a33-9fd6-45fd-8de6-5069e11856b1.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=da09a0a2c3892a10302c5f2b2b01313b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=da09a0a2c3892a10302c5f2b2b01313b"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=020960a2c3892a10302c5f2b2b0131dd"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=020960a2c3892a10302c5f2b2b0131dd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_020960a2c3892a10302c5f2b2b0131dd^sys_idNOT IN1209a0a2c3892a10302c5f2b2b013111,1609a0a2c3892a10302c5f2b2b013133"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_020960a2c3892a10302c5f2b2b0131dd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>1209a0a2c3892a10302c5f2b2b013111</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_020960a2c3892a10302c5f2b2b0131dd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:52</sys_created_on>
+        <sys_id>1609a0a2c3892a10302c5f2b2b013133</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 11:16:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_020960a2c3892a10302c5f2b2b0131dd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_020960a2c3892a10302c5f2b2b0131dd"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_020960a2c3892a10302c5f2b2b0131dd"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>97a5aceec3c52a10302c5f2b2b0131c3</sys_id>
+        <latest_snapshot>020960a2c3892a10302c5f2b2b0131dd</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch10-01-15-2025_01-31-2025_0756.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=97a5aceec3c52a10302c5f2b2b0131c3^sys_idNOT IN6609e0a2c3892a10302c5f2b2b013161"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"6609e0a2c3892a10302c5f2b2b013161","name":"plan","plan_signature":null}}</plan>
+        <plan_id>97a5aceec3c52a10302c5f2b2b0131c3</plan_id>
+        <snapshot>020960a2c3892a10302c5f2b2b0131dd</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:16:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6609e0a2c3892a10302c5f2b2b013161</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 22:35:46</sys_updated_on>
+        <trigger display_value="">e209e0a2c3892a10302c5f2b2b01315f</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=97a5aceec3c52a10302c5f2b2b0131c3"/>
+</record_update>

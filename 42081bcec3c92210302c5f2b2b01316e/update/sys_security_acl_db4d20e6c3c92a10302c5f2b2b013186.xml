@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Default access control on x_1662488_pcpm_product_idea</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1662488_pcpm_product_idea</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[gs.hasRole('x_1662488_pcpm.admin') ||
+gs.hasRole('x_1662488_pcpm.innovation') ||
+(gs.hasRole('x_1662488_pcpm.designer') && current.submitted_by == gs.getUserID());
+]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 11:35:30</sys_created_on>
+        <sys_id>db4d20e6c3c92a10302c5f2b2b013186</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>x_1662488_pcpm_product_idea</sys_name>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_update_name>sys_security_acl_db4d20e6c3c92a10302c5f2b2b013186</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 21:04:58</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

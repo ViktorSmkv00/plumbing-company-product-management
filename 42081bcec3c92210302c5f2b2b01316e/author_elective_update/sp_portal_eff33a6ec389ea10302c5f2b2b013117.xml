@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="DELETE">
+        <css_variables/>
+        <dark_theme/>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage/>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <rtl_enabled>false</rtl_enabled>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 21:25:47</sys_created_on>
+        <sys_id>eff33a6ec389ea10302c5f2b2b013117</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Support Portal</sys_name>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_update_name>sp_portal_eff33a6ec389ea10302c5f2b2b013117</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 21:25:47</sys_updated_on>
+        <theme display_value="Stock">79315153cb33310000f8d856634c9c4b</theme>
+        <title>Customer Support Portal</title>
+        <ts_index_group/>
+        <url_suffix>customer-portal</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="DELETE" query="documentkey=eff33a6ec389ea10302c5f2b2b013117"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</application>
+        <file_path/>
+        <instance_id>0261b790fff74a18c812f8e4fc4fd909</instance_id>
+        <instance_name>dev284375</instance_name>
+        <name>sp_portal_eff33a6ec389ea10302c5f2b2b013117</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal"><sp_portal action="INSERT_OR_UPDATE"><css_variables/><dark_theme/><default>false</default><enable_ais>false</enable_ais><enable_certificate_based_authentication>false</enable_certificate_based_authentication><enable_favorites>false</enable_favorites><hide_portal_name>false</hide_portal_name><homepage/><icon/><kb_knowledge_base/><kb_knowledge_page/><login_page/><logo/><notfound_page/><quick_start_config/><rtl_enabled>false</rtl_enabled><sc_catalog/><sc_catalog_page/><sc_category_page/><search_application/><search_results_configuration/><sp_chat_queue/><sp_rectangle_menu/><sys_class_name>sp_portal</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-24 21:25:47</sys_created_on><sys_id>eff33a6ec389ea10302c5f2b2b013117</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Customer Support Portal</sys_name><sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package><sys_policy/><sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope><sys_update_name>sp_portal_eff33a6ec389ea10302c5f2b2b013117</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-24 21:25:47</sys_updated_on><theme display_value="Stock">79315153cb33310000f8d856634c9c4b</theme><title>Customer Support Portal</title><ts_index_group/><url_suffix>customer-portal</url_suffix></sp_portal><sys_translated_text action="delete_multiple" query="documentkey=eff33a6ec389ea10302c5f2b2b013117"/></record_update>]]></payload>
+        <payload_hash>-1412104763</payload_hash>
+        <record_name>Customer Support Portal</record_name>
+        <reverted_from/>
+        <source>0e085f0ec38d2210302c5f2b2b0131a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 21:25:47</sys_created_on>
+        <sys_id>c26432aec389ea10302c5f2b2b01315a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19669b146150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 21:25:47</sys_updated_on>
+        <type>Service Portal</type>
+        <update_guid>c66432ae3489ea104513ffffb38cec59</update_guid>
+        <update_guid_history>c66432ae3489ea104513ffffb38cec59:-1412104763</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Customer Support Portal">30fcc57ac3492210302c5f2b2b0131df</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 08:32:16</sys_created_on>
+        <sys_db_object display_value="" name="sp_portal">sp_portal</sys_db_object>
+        <sys_id>380967684afd4bd19fde82859f431249</sys_id>
+        <sys_metadata>eff33a6ec389ea10302c5f2b2b013117</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Support Portal</sys_name>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_scope_delete display_value="">164d6d89b9b646389d4cf72179addc90</sys_scope_delete>
+        <sys_update_name>sp_portal_eff33a6ec389ea10302c5f2b2b013117</sys_update_name>
+        <sys_update_version display_value="sp_portal_eff33a6ec389ea10302c5f2b2b013117">c26432aec389ea10302c5f2b2b01315a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 08:32:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

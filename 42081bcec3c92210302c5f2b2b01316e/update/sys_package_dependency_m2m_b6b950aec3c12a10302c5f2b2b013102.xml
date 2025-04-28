@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Service Management Basics" source="com.snc.service">620fb7e6f8b2021008dd9cfea425acb5</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 10:10:00</sys_created_on>
+        <sys_id>b6b950aec3c12a10302c5f2b2b013102</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 10:10:00</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="60eec0eec3cde610302c5f2b2b0131ab" label="Product" max_length="40" name="x_1662488_pcpm_product" type="collection">
+        <element label="Description" max_length="150" name="description" type="string"/>
+        <element label="Product Name" max_length="40" name="product_name" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Retired" value="retired"/>
+                <element inactive_on_update="false" label="Active" value="active"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" label="Product Type" max_length="40" name="product_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Industrial" sequence="1" value="Industrial"/>
+                <element inactive_on_update="false" label="Both" sequence="2" value="Both"/>
+                <element inactive_on_update="false" label="Domus" sequence="0" value="Domus"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Availability" max_length="40" name="availability" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Not Available" sequence="1" value="Not_Available"/>
+                <element inactive_on_update="false" label="Available" sequence="0" value="Available"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="Price" max_length="20" name="price" type="currency"/>
+    </element>
+</database>

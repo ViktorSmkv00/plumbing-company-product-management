@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>Widget with big menu buttons for customer homepage.</description>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>customer_homepage_menu</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Customer Homepage Menu</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-27 22:56:10</sys_created_on>
+        <sys_id>785562a7c349e210302c5f2b2b013125</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Customer Homepage Menu</sys_name>
+        <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+        <sys_update_name>sp_widget_785562a7c349e210302c5f2b2b013125</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 23:37:40</sys_updated_on>
+        <template><![CDATA[<div style="text-align: center; margin-top: 50px;">
+<!-- your widget template -->
+  <h1>Welcome to the Customer Portal</h1>
+  <div style="margin-top: 40px; display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
+    
+    <!-- Submit a Ticket Button -->
+    <a href="/sp?id=sc_cat_item&sys_id=87c7a6efc349e210302c5f2b2b01317d" class="btn btn-primary btn-lg" style="width: 250px; height: 100px; font-size: 20px; display: flex; align-items: center; justify-content: center;">
+      Submit a Ticket
+    </a>
+    
+    <!-- Order a Product Button -->
+    <a href="/sp?id=sc_cat_item&sys_id=7b5aa663c389e210302c5f2b2b0131c6" class="btn btn-success btn-lg" style="width: 250px; height: 100px; font-size: 20px; display: flex; align-items: center; justify-content: center;">
+      Order a Product
+    </a>
+    
+    <!-- View My Tickets Button -->
+    <a href="/sp?id=my_requests" class="btn btn-info btn-lg" style="width: 250px; height: 100px; font-size: 20px; display: flex; align-items: center; justify-content: center;">
+      View My Tickets
+    </a>
+
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

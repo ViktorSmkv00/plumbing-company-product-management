@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="ticket_type" table="x_1662488_pcpm_ticket" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>ticket_type</element>
+            <name>x_1662488_pcpm_ticket</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-23 14:42:16</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ticket_type</sys_name>
+            <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+            <sys_update_name>sys_choice_x_1662488_pcpm_ticket_ticket_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-23 14:42:16</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ticket_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Administrative</label>
+            <language>en</language>
+            <name>x_1662488_pcpm_ticket</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-23 14:42:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-27 14:40:52</sys_updated_on>
+            <value>Administrative</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ticket_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Incident</label>
+            <language>en</language>
+            <name>x_1662488_pcpm_ticket</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-27 14:40:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-27 14:40:52</sys_updated_on>
+            <value>Incident</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ticket_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Logistics</label>
+            <language>en</language>
+            <name>x_1662488_pcpm_ticket</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-23 14:42:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-27 14:40:52</sys_updated_on>
+            <value>Logistics</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ticket_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request</label>
+            <language>en</language>
+            <name>x_1662488_pcpm_ticket</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-27 14:40:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-27 14:40:52</sys_updated_on>
+            <value>Request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ticket_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Onsite</label>
+            <language>en</language>
+            <name>x_1662488_pcpm_ticket</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-23 14:43:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-27 14:40:52</sys_updated_on>
+            <value>Onsite</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ticket_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Suggestion</label>
+            <language>en</language>
+            <name>x_1662488_pcpm_ticket</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-27 14:40:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-27 14:40:52</sys_updated_on>
+            <value>Suggestion</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ticket_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Order</label>
+            <language>en</language>
+            <name>x_1662488_pcpm_ticket</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-27 23:40:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-27 23:40:42</sys_updated_on>
+            <value>Order</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ticket_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Support</label>
+            <language>en</language>
+            <name>x_1662488_pcpm_ticket</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-23 14:42:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-28 01:40:53</sys_updated_on>
+            <value>Support</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ticket_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Technical</label>
+            <language>en</language>
+            <name>x_1662488_pcpm_ticket</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-23 14:42:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-27 14:40:52</sys_updated_on>
+            <value>Technical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ticket_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Feedback</label>
+            <language>en</language>
+            <name>x_1662488_pcpm_ticket</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-28 01:40:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-28 01:40:53</sys_updated_on>
+            <value>Feedback</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

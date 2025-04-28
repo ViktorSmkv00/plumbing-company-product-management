@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="38cb5f82c3cd2210302c5f2b2b013169" extends="task" label="Ticket" max_length="40" name="x_1662488_pcpm_ticket" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Related Product&#9;" max_length="50" name="related_product" reference="x_1662488_pcpm_product" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request Type" max_length="40" name="request_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Support" sequence="0" value="Support"/>
+                <element inactive_on_update="false" label="Product Order" sequence="1" value="Product order"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="Other"/>
+                <element inactive_on_update="false" label="Feedback" sequence="2" value="Feedback"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Triggering Test Type" max_length="40" name="triggering_test_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="External" value="External"/>
+                <element inactive_on_update="false" label="Internal" value="Internal"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Source" max_length="40" name="source" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Internal" value="Internal"/>
+                <element inactive_on_update="false" label="Customer" value="Customer"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Approval Status&#9;" max_length="40" name="approval_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" value="rejected"/>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
+            </choice>
+        </element>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Test Type" max_length="40" name="test_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Internal" sequence="0" value="Internal"/>
+                <element inactive_on_update="false" label="External" sequence="1" value="External"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Administrative" sequence="1" value="Administrative"/>
+                <element inactive_on_update="false" label="Support" sequence="3" value="Support"/>
+                <element inactive_on_update="false" label="Logistics" sequence="2" value="Logistics"/>
+                <element inactive_on_update="false" label="Onsite" sequence="4" value="Onsite"/>
+                <element inactive_on_update="false" label="Technical" sequence="0" value="Technical"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Customer Type" max_length="40" name="customer_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Industrial" value="Industrial"/>
+                <element inactive_on_update="false" label="Domus" value="Domus"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Requires Approval&#9;" max_length="40" name="requires_approval" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Ticket Type" max_length="40" name="ticket_type" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Technical" sequence="4" value="Technical"/>
+                <element inactive_on_update="false" label="Incident" sequence="0" value="Incident"/>
+                <element inactive="true" inactive_on_update="true" label="Onsite" sequence="2" value="Onsite"/>
+                <element inactive_on_update="false" label="Feedback" sequence="5" value="Feedback"/>
+                <element inactive="true" inactive_on_update="true" label="Administrative" sequence="0" value="Administrative"/>
+                <element inactive_on_update="false" label="Order" sequence="3" value="Order"/>
+                <element inactive_on_update="false" label="Request" sequence="1" value="Request"/>
+                <element inactive_on_update="false" label="Suggestion" sequence="2" value="Suggestion"/>
+                <element inactive_on_update="false" label="Support" sequence="4" value="Support"/>
+                <element inactive="true" inactive_on_update="true" label="Logistics" sequence="1" value="Logistics"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Triggering Group&#9;" max_length="32" name="triggering_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Delivery Address" max_length="40" name="delivery_address" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="triggering_group" label="Triggering Group&#9;" language="en" table="x_1662488_pcpm_ticket">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>triggering_group</element>
+            <help/>
+            <hint/>
+            <label>Triggering Group	</label>
+            <language>en</language>
+            <name>x_1662488_pcpm_ticket</name>
+            <plural>Triggering Group	s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-23 17:13:14</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Triggering Group</sys_name>
+            <sys_package display_value="Plumbing Company Product Management" source="x_1662488_pcpm">42081bcec3c92210302c5f2b2b01316e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Plumbing Company Product Management">42081bcec3c92210302c5f2b2b01316e</sys_scope>
+            <sys_update_name>sys_documentation_x_1662488_pcpm_ticket_triggering_group_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-23 17:13:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
